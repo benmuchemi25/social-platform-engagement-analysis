@@ -4,18 +4,19 @@
 This project simulates a Reddit-style social platform database to analyze user behavior, content engagement, and platform health. It was designed to demonstrate end-to-end data skills from relational database design and data generation to SQL analytics and interactive visualization.
 
 **Tools Used:** PostgreSQL, Python, DBeaver, Tableau Public, GitHub
-
 ## Project Structure
-├── schema.sql                  # Database schema for all 10 tables
-├── generate_data.py            # Python script to generate synthetic data
-├── analytical_queries.sql      # SQL queries for product analytics
-├── query1_top_users.csv        # Top 10 users by post volume
-├── query2_category_engagement.csv  # Category engagement by avg comments
-├── query3_daily_post_volume.csv    # Daily post volume over 30 days
-├── query4_top_voted_posts.csv      # Top 10 highest voted posts
-├── query5_report_reasons.csv       # Report reasons breakdown
-├── query6_top_followed_users.csv   # Top 10 most followed users
+```
+├── schema.sql                    # Database schema for all 10 tables
+├── generate_data.py              # Python script to generate synthetic data
+├── analytical_queries.sql        # SQL queries for product analytics
+├── query1_top_users.csv          # Top 10 users by post volume
+├── query2_category_engagement.csv    # Category engagement by avg comments
+├── query3_daily_post_volume.csv      # Daily post volume over 30 days
+├── query4_top_voted_posts.csv        # Top 10 highest voted posts
+├── query5_report_reasons.csv         # Report reasons breakdown
+├── query6_top_followed_users.csv     # Top 10 most followed users
 ├── query8_notification_read_rate.csv # Notification read rate by type
+```
 
 ## Database Schema
 The database consists of 10 tables modeling a social platform:

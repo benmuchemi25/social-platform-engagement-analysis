@@ -4,6 +4,7 @@
 This project simulates a Reddit-style social platform database to analyze user behavior, content engagement, and platform health. It was designed to demonstrate end-to-end data skills from relational database design and data generation to SQL analytics and interactive visualization.
 
 **Tools Used:** PostgreSQL, Python, DBeaver, Tableau Public, GitHub
+
 ## Project Structure
 ├── schema.sql                  # Database schema for all 10 tables
 ├── generate_data.py            # Python script to generate synthetic data

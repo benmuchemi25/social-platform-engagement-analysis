@@ -1,13 +1,17 @@
+from dotenv import load_dotenv
+import os
 import psycopg2
 from faker import Faker
-import random 
+import random
+
+load_dotenv()
 
 fake = Faker ()
 
 conn = psycopg2.connect(
     dbname="social_platform",
     user="postgres",
-    password="Busia2009$",
+    password=os.getenv("DB_PASSWORD"),
     host="localhost",
     port="5432"
 )
